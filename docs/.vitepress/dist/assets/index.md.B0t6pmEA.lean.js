@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,m as a}from"./chunks/framework.B72PfGRE.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"},o=a("p",null,"#hello VitePress",-1),r=[o];function c(d,i,_,l,p,m){return s(),t("div",null,r)}const x=e(n,[["render",c]]);export{h as __pageData,x as default};
