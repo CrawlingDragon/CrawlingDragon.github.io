@@ -38,10 +38,10 @@ jobs:
         uses: actions/configure-pages@v3 # 在工作流程自动配置GithubPages
       - name: Install dependencies
         run: pnpm install # 安装依赖
-      - name: Build with VitePress
-        run: pnpm run docs:build # 启动项目
-      - name: touch .nojekyll
-        run: touch .nojekyll # 启动项目
+      run: |
+          pnpm run docs:build # 启动项目
+          touch .nojekyll  # 通知githubpages不要使用Jekyll处理这个站点，不知道为啥不生效，就手动搞了
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2 # 上传构建产物
         with:
