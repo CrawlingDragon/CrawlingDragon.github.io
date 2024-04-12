@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: '/vitepress-start/',
+  base: '/docs/',
   title: '菜的抠脚 文档站点 ',
   description: 'A VitePress Site for seo',
   logo: '/lu.svg',
