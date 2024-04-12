@@ -8,7 +8,7 @@ hero:
   tagline: 持续学习，不断进步！
   imgage:
     src: /lu.svg
-    alt: 'hat'
+    alt: 'hat image'
   actions:
     - theme: brand
       text: 第一个示例
