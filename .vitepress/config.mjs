@@ -18,7 +18,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/CrawlingDragon' },
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
     // 设置搜索框样式
