@@ -60,5 +60,5 @@ jobs:
         id: deployment # 指定id
         uses: actions/deploy-pages@v3 # 将之前的构建产物部署到github pages中
         with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        artifact-name: my-build-artifact
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          artifact-name: my-build-artifact
